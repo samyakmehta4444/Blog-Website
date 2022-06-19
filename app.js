@@ -6,7 +6,7 @@ const ejs = require("ejs");
 const _ = require("lodash");
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb+srv://admin-samyak2:Test123@cluster0.rptbq.mongodb.net/blogDB", {
+mongoose.connect("mongodb+srv://admin-samyak2:<PASSWORD>@cluster0.rptbq.mongodb.net/blogDB", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
